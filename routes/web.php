@@ -13,6 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// routes/web.php
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/history', function () {
+    return view('history');
+});
+
+Route::get('/details', function () {
+    return view('details');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
