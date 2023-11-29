@@ -5,13 +5,12 @@
 
 @section('appContents')
     <div class="min-h-screen bg-gray-100 flex flex-col">
-        <!-- Navigation Bar -->
+
         <header class="bg-blue-500 text-white p-4">
             <div class="container mx-auto flex justify-between items-center">
-                <!-- Logo or Website Name -->
+
                 <a href="{{ route('home') }}" class="text-xl font-bold">Sachin Tendulkar</a>
 
-                <!-- Navigation Links -->
                 <nav>
                     <ul class="flex space-x-4">
                         <li><a href="{{ route('home') }}" class="hover:underline">Home</a></li>
@@ -24,7 +23,7 @@
             </div>
         </header>
 
-        <!-- Page Content -->
+
         <div class="flex-1 flex items-center justify-center">
             <div class="max-w-3xl p-10 bg-white shadow-lg rounded-md">
                 <h1 class="text-4xl font-bold text-blue-800 mb-4">Connect with Sachin Tendulkar</h1>
